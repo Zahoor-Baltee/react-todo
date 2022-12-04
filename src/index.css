@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.profileContainer{
+  background-color: #f0ad4e;
+  overflow: auto;
+  flex-flow: row;
+}
+.cardContainer{
+  width: 00px;
+}
+
+/* registration */
+
+.mainBox{
+  width: 100%;
+  margin-top: 50px;
+
+
+}
+.mainHeading p{
+  
+  width: 100%;
+  padding-left: 18%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  padding-top: 12px;
+  font-size: 26px;
+  color: #03045E;
+  background: #48CAE4 ;
+}
+.imageBox{
+  border: 1px dotted #03045E;
+  margin: 20px;
+  height: 40%;
+  width: 80%;
+}
+.footer{
+  width: 94%;
+  margin-left: 2%;
+  height: 20px;
+  background-color: #48CAE4;
+}
+/* login fyp */
+
+.main-heading {
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  margin-top: 14%;
+}
+.main-heading h6{
+  font-size: 36px;
+}
+.main-heading p{
+  margin-top: 5%;
+}
+.main-input {
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  
+}
+.main-button {
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.forget-password {
+  display: flex;
+  justify-content: center;
+}
